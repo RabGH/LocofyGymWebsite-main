@@ -14,13 +14,13 @@ const ExerciseCard: NextPage<ExerciseCardType> = ({
   workoutTime,
 }) => {
   return (
-    <a className="[text-decoration:none] relative w-[373px] h-[296px] text-left text-31xl text-white font-poppins">
+    <a className="relative w-[373px] h-[296px] text-left text-31xl text-white font-poppins">
       <img
-        className="absolute top-[0px] left-[0px] w-[373px] h-[250px] object-cover"
+        className="imgCard"
         alt=""
         src={image}
       />
-      <h2 className="m-0 absolute top-[222px] left-[20px] text-inherit tracking-[0.3px] leading-[45px] font-semibold font-inherit">
+      <h2 className="hover:text-gray-500 m-0 absolute top-[222px] left-[20px] text-inherit tracking-[0.3px] leading-[45px] font-semibold font-inherit">
         {title}
       </h2>
       <p className="m-0 absolute top-[282px] left-[20px] text-smi tracking-[0.5px] leading-[14px] opacity-[0.67]">

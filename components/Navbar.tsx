@@ -45,7 +45,7 @@ const Navbar: NextPage = () => {
                 href="#subscribe"
                 className="no-underline text-white hover:text-gray-400"
               >
-                LOGIN
+                SUBSCRIBE
               </a>
             </div>
           </nav>
